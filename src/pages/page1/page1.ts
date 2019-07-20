@@ -31,4 +31,7 @@ export class Page1Page {
      // Handle error
     });
   }
+  GuardarImagen(){
+    
+  }
 }
