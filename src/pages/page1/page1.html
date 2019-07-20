@@ -1,0 +1,11 @@
+
+<ion-header>
+  <ion-navbar>
+    <ion-title>Cursos Plugin Camara</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+<button ion-button color="primary" (click)="tomarFoto()">Tomar Fotografía</button>
+  <img *ngIf="!urlImage" [src]="urlImage" alt="imagen" />
+</ion-content>

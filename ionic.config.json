@@ -1,5 +1,7 @@
 {
   "name": "cursos",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "ionic-angular"
 }
